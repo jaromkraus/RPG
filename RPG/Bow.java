@@ -2,8 +2,11 @@
 /**
  * Write a description of class Bow here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jarom Kraus 
+ * @version 2.23.16
  */
 public class Bow extends RangedWeapon{
+    public Bow(String Name){
+        super(Name);
+    }
 }

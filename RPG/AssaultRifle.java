@@ -2,8 +2,11 @@
 /**
  * Write a description of class AssultRifle here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jarom Kraus 
+ * @version 2.23.16
  */
 public class AssaultRifle extends RangedWeapon{
+    public AssaultRifle(String Name){
+        super(Name);
+    }
 }

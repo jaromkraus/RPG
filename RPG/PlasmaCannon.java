@@ -2,9 +2,11 @@
 /**
  * Write a description of class PlasmaCannon here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jarom Kraus 
+ * @version 2.23.16
  */
 public class PlasmaCannon extends RangedWeapon{
-    
+    public PlasmaCannon(String Name){
+        super(Name);
+    }
 }
