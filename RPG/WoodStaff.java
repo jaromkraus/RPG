@@ -2,31 +2,14 @@
 /**
  * Write a description of class WoodStaff here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jarom Kraus 
+ * @version (2.23.16
  */
-public class WoodStaff {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class WoodStaff
-     */
-    public WoodStaff()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+public class WoodStaff extends RangedWeapon {
+   public WoodStaff(String Name){
+       super(Name);
+   }
+   public WoodStaff(){
+       System.out.println("You start to spin the staff and as you spin, fireballs and lightning strikes fly off in all directions, increasing the faster the staff spins.");
+   }
 }

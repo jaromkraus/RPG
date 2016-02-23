@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=Name
 comment0.target=PlasmaCannon(java.lang.String)
-numComments=1
+comment1.params=
+comment1.target=PlasmaCannon()
+numComments=2
