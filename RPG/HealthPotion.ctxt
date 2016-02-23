@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=Name
+comment0.target=HealthPotion(java.lang.String)
+comment1.params=
+comment1.target=void\ drinkHealthPotion()
+numComments=2
