@@ -2,9 +2,11 @@
 /**
  * Write a description of class LongSword here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jarom Kraus
+ * @version 2.23.16
  */
 public class LongSword extends Melee{
-    
+    public LongSword(String Name){
+        super(Name);
+    }
 }
