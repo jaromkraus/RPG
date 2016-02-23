@@ -6,5 +6,7 @@
  * @version 2.22.16
  */
 public class Fist extends Melee{
-   
+   public Fist(String Name){
+       super(Name);
+    }
 }

@@ -6,5 +6,7 @@
  * @version 2.22.16
  */
 public class EnergySword extends Melee{
-   
+   public EnergySword(String Name){
+       super(Name);
+    }
 }
