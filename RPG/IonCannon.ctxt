@@ -1,6 +1,10 @@
 #BlueJ class context
-comment0.params=Name
-comment0.target=IonCannon(java.lang.String)
-comment1.params=
-comment1.target=IonCannon()
-numComments=2
+comment0.params=ammo\ damage\ criticalChance\ highDamage\ lowDamage
+comment0.target=IonCannon(int,\ int,\ double,\ int,\ int)
+comment1.params=Stats
+comment1.target=IonCannon(int)
+comment2.params=Name
+comment2.target=IonCannon(java.lang.String)
+comment3.params=
+comment3.target=IonCannon()
+numComments=4

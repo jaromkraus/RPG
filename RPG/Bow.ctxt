@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=Name
 comment0.target=Bow(java.lang.String)
-numComments=1
+comment1.params=
+comment1.target=Bow()
+numComments=2

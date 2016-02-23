@@ -9,4 +9,7 @@ public class LongSword extends Melee{
     public LongSword(String Name){
         super(Name);
     }
+    public LongSword(){
+        System.out.println("You walk up with the long sword over your shoulder and stare into the person's eyes as you swing the sword and cleave their head off");
+    }
 }
