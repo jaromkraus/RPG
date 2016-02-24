@@ -5,6 +5,7 @@
  * @author Jarom Kraus 
  * @version 2.22.16
  */
+@SuppressWarnings("unchecked")
 public class ManaPotion extends Potion{
     public ManaPotion(String Name){
         super(Name);
