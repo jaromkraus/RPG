@@ -5,4 +5,6 @@ comment1.params=
 comment1.target=Melee()
 comment2.params=Name
 comment2.target=Melee(java.lang.String)
-numComments=3
+comment3.params=
+comment3.target=java.util.ArrayList\ getStats()
+numComments=4

@@ -9,13 +9,16 @@ public abstract  class Armor extends Item implements DefenseCommands {
     boolean blocked(){
         System.out.println("This changed");
         return true;
-  }
-String name;
-public Armor (String Name){
+   }
+   String name;
+    public Armor (String Name){
     name = Name;
-}
-public String getName(){
+   }
+    
+    public String getName(){
     return name;
+   }
 }
+    
    
-}
+

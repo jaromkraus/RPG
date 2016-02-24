@@ -2,8 +2,9 @@
 /**
  * Write a description of class Consumable here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jarom Kraus 
+ * @version 2.24.16
  */
 public abstract class Consumable extends Item{
+    
 }
