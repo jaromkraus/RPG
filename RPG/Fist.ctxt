@@ -1,4 +1,8 @@
 #BlueJ class context
 comment0.params=Name
 comment0.target=Fist(java.lang.String)
-numComments=1
+comment1.params=
+comment1.target=boolean\ parry()
+comment2.params=
+comment2.target=void\ FistAttack()
+numComments=3

@@ -12,4 +12,7 @@ public class Bow extends RangedWeapon{
     public Bow(){
         System.out.println("You lift the bow, knock an arrow, take aim, and let the arrow fly to where it impails itself in the enemy's eye");
     }
+    public boolean parry(){
+        return true;
+    }
 }

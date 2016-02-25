@@ -23,5 +23,8 @@ public class Melee extends Weapon {
       stats.addAll(super.getStats());
       return stats;
   }
+  public boolean parry(){
+      return true;
+    }
   
 }

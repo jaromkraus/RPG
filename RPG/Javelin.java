@@ -9,5 +9,7 @@ public class Javelin extends RangedWeapon{
     public Javelin(String Name){
         super(Name);
     }
-    
+    public boolean parry(){
+        return true;
+    }
 }

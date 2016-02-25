@@ -43,4 +43,7 @@ public abstract class Weapon extends Item implements WeaponInterface{
     public ArrayList getStats(){
         return stats;
     }
+    public boolean parry(){
+        return true;
+    }
 }

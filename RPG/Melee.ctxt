@@ -7,4 +7,6 @@ comment2.params=Name
 comment2.target=Melee(java.lang.String)
 comment3.params=
 comment3.target=java.util.ArrayList\ getStats()
-numComments=4
+comment4.params=
+comment4.target=boolean\ parry()
+numComments=5

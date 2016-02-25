@@ -12,4 +12,11 @@ public class LongSword extends Melee{
     public LongSword(){
         System.out.println("You walk up with the long sword over your shoulder and stare into the person's eyes as you swing the sword and cleave their head off");
     }
+    public boolean parry(){
+        return false;
+    }
+    public void LongSwordAttack(){
+        int attack = 100;
+        System.out.println("This attack is enough to cleave the head off of any enemy");
+    }
 }
