@@ -3,4 +3,6 @@ comment0.params=Name
 comment0.target=WoodStaff(java.lang.String)
 comment1.params=
 comment1.target=WoodStaff()
-numComments=2
+comment2.params=
+comment2.target=java.util.ArrayList\ getStats()
+numComments=3

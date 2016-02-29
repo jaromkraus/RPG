@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=java.util.ArrayList\ getStats()
 comment4.params=
 comment4.target=boolean\ parry()
-numComments=5
+comment5.params=
+comment5.target=int\ attack()
+numComments=6

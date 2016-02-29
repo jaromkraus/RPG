@@ -25,6 +25,9 @@ public class Melee extends Weapon {
   }
   public boolean parry(){
       return true;
-    }
-  
+  }
+  public int attack(){
+      super.attack(10);
+      return 10;
+  }
 }

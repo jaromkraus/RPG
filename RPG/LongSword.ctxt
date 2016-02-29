@@ -7,4 +7,6 @@ comment2.params=
 comment2.target=boolean\ parry()
 comment3.params=
 comment3.target=void\ LongSwordAttack()
-numComments=4
+comment4.params=
+comment4.target=java.util.ArrayList\ getStats()
+numComments=5

@@ -6,8 +6,7 @@
  * @version 2.22.16
  */
 public abstract  class Armor extends Item implements DefenseCommands {
-    boolean blocked(){
-        System.out.println("This changed");
+    public boolean blocked(){
         return true;
    }
    String name;
@@ -18,6 +17,7 @@ public abstract  class Armor extends Item implements DefenseCommands {
     public String getName(){
     return name;
    }
+   
 }
     
    

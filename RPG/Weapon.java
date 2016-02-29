@@ -1,11 +1,11 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class Weapon here.
  * 
  * @author Jarom Kraus 
  * @version 2.18.16
  */
-import java.util.ArrayList;
+
 @SuppressWarnings("unchecked")
 public abstract class Weapon extends Item implements WeaponInterface{
     private int ammo;
@@ -45,5 +45,10 @@ public abstract class Weapon extends Item implements WeaponInterface{
     }
     public boolean parry(){
         return true;
+    }
+    public int attack(int attack){
+        attack = 10;
+        System.out.println("These weapons have some sort of attack");
+        return attack;
     }
 }

@@ -22,4 +22,8 @@ public class RangedWeapon extends Weapon{
         stats.addAll(super.getStats());
         return stats;
     }
+    public int attack (){
+        super.attack(25);
+        return 25;
+    }
 }
