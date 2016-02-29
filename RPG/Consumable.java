@@ -7,4 +7,6 @@ import java.util.ArrayList;
  */
 @SuppressWarnings("unchecked")
 public abstract class Consumable extends Item{
+    private int amount;
+    
 }

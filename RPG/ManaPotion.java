@@ -7,11 +7,16 @@ import java.util.ArrayList;
  */
 @SuppressWarnings("unchecked")
 public class ManaPotion extends Potion{
+    private ArrayList stats;
     public ManaPotion(String Name){
         super(Name);
     }
     public void drinkManaPotion(){
         System.out.println("You drink the mana potion and it increases your mana.");
     }
-    
+    public ArrayList getStats(){
+        stats = new ArrayList();
+        stats.addAll(super.getStats());
+        return stats;
+    }
 }
