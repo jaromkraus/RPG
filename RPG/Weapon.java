@@ -24,11 +24,6 @@ public abstract class Weapon extends Item implements WeaponInterface{
         highDamage = hDamage;
         lowDamage = lDamage;
         
-        stats.add(ammo);
-        stats.add(damage);
-        stats.add(critChance);
-        stats.add(highDamage);
-        stats.add(lowDamage);
     }
     public Weapon(){
         this(25,20,.5,50,2);
@@ -41,6 +36,12 @@ public abstract class Weapon extends Item implements WeaponInterface{
         return name;
     }
     public ArrayList getStats(){
+        stats = new ArrayList();
+        stats.add(ammo);
+        stats.add(damage);
+        stats.add(critChance);
+        stats.add(hDamage);
+        stats.add(lDamage);
         return stats;
     }
     public boolean parry(){

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=Name
+comment0.target=FireExtingisher(java.lang.String)
+comment1.params=
+comment1.target=FireExtingisher()
+comment2.params=
+comment2.target=boolean\ parry()
+comment3.params=attack
+comment3.target=void\ FireExtingisherAttack(int)
+comment4.params=
+comment4.target=java.util.ArrayList\ getStats()
+numComments=5

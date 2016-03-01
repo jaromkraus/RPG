@@ -33,6 +33,9 @@ public abstract  class Armor extends Item implements DefenseCommands {
     return name;
    }
    public ArrayList getStats(){
+       stats = new ArrayList();
+       stats.add(weight);
+       stats.add(strength);
        return stats;
     }
 }
