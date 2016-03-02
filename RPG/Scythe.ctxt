@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=Name
+comment0.target=Scythe(java.lang.String)
+comment1.params=
+comment1.target=boolean\ parry()
+comment2.params=
+comment2.target=void\ ScytheAttack()
+comment3.params=
+comment3.target=java.util.ArrayList\ getStats()
+numComments=4

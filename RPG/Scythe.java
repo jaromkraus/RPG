@@ -1,33 +1,26 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class Scythe here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jarom Kraus 
+ * @version (3.2.16
  */
-public class Scythe
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Scythe
-     */
-    public Scythe()
-    {
-        // initialise instance variables
-        x = 0;
+@SuppressWarnings("unchecked")
+public class Scythe extends Melee{
+    private ArrayList stats;
+    public Scythe(String Name){
+        super(Name);
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public boolean parry(){
+        return false;
+    }
+    public void ScytheAttack(){
+        int attack = 1700;
+        System.out.println("This attack is enough to cleave the soul out of whatever enemy it touchesd");
+    }
+    public ArrayList getStats(){
+        stats = new ArrayList();
+        stats.addAll(super.getStats());
+        return stats;
     }
 }
