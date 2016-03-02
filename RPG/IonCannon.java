@@ -18,11 +18,11 @@ public class IonCannon extends RangedWeapon{
        super(Name);
    }
     public IonCannon(){
-    System.out.println("You just destroyed the world. Congradulations.  Game over.");
+       System.out.println("You just destroyed the world. Congradulations.  Game over.");
    }
    public ArrayList getStats(){
-        stats = new ArrayList();
-        stats.addAll(super.getStats());
-        return stats;
+       stats = new ArrayList();
+       stats.addAll(super.getStats());
+       return stats;
     }
 }

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=ammo\ damage\ criticalChance\ highDamage\ lowDamage
+comment0.target=LightningCannon(int,\ int,\ double,\ int,\ int)
+comment1.params=stats
+comment1.target=LightningCannon(int)
+comment2.params=Name
+comment2.target=LightningCannon(java.lang.String)
+comment3.params=
+comment3.target=LightningCannon()
+comment4.params=
+comment4.target=java.util.ArrayList\ getStats()
+numComments=5
